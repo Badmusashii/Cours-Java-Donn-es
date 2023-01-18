@@ -1,0 +1,17 @@
+h1 {
+    font-family: $font1;
+    font-size: 3rem;
+    text-align: center;
+
+    &:after {
+        content: "*";
+        position: absolute;
+        transform: translateY(-6px);
+        color: $color3;
+    }
+
+    &:hover::after {
+        font-size: 2rem;
+    }
+
+}

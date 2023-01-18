@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "font1";
+    src: url(../fonts/Akronim-Regular.ttf);
+}
+
+$font1: font1, sans-serif;
+$color1:#F1D4D5;
+$color2: rgb(191,97,161);
+$color3: #6A087E;
+$color4: #BBDB9B;
+$color5: rgb(18, 18, 18);
+
+
+// La mixin creer une partie de code que l'on peut appeler plus tard en Sass avec @includes ==> voir plus bas dans le code
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

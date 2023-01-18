@@ -1,0 +1,16 @@
+// Le role de index.scss va etre de regrouper tous les autres ficchiers .scss
+
+
+
+// settings.scss doit toujours etre declaré en 1er
+@import "../style/pages/settings";
+
+// Ensuite on peut importer les autre pages .scss
+@import "../style/Layouot/body";
+@import "../style/Layouot/header";
+@import "../style/Layouot/navbar";
+@import "../style/Layouot/section1";
+
+
+
+

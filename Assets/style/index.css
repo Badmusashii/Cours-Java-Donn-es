@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "font1";
+  src: url(../fonts/Akronim-Regular.ttf);
+}
+body {
+  background: #F1D4D5;
+  color: #6A087E;
+}
+
+h1 {
+  font-family: font1, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+h1:after {
+  content: "*";
+  position: absolute;
+  transform: translateY(-6px);
+  color: #6A087E;
+}
+h1:hover::after {
+  font-size: 2rem;
+}
+
+nav {
+  background: rgb(191, 97, 161);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style: none;
+}
+
+section {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section p {
+  text-align: center;
+  width: 50%;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,10 @@
+section {
+    height: 600px;
+    // ici, nous appelons notre mixin creer un peu plus haut dans le code 
+    @include center;
+
+    p {
+        text-align: center;
+        width: 50%;
+    }
+}
